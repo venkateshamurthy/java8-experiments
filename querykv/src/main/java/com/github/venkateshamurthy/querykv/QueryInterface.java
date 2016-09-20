@@ -192,7 +192,7 @@ public interface QueryInterface<K, R> {
    }
 
    /**
-    * A result object creator to create an object of type R given its key of type K and property map
+    * A result object creator to create an object of type R given an entry of its key of type K and property map
     * of the type Map&lt;String,Object&gt;.
     *
     * @param <K> the type of the key
